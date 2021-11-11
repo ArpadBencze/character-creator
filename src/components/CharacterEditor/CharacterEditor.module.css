@@ -27,10 +27,9 @@
 
 .characterWrapper {
   position: fixed;
-  margin-top: 128px;
-  top:0;
+  top: 15%;
   bottom: 0;
-  right: 200px;
+  left: 60%;
   min-height: 500px;
 }
 
@@ -70,10 +69,10 @@
   }
 
   .characterWrapper {
+    top:0;
     left: 0;
     right: 0;
     z-index: -1;
-    min-height: 500px;
   }
 
   .decoration {
